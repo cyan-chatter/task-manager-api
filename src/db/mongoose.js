@@ -1,5 +1,5 @@
 //C:/Users/DELL/mongo-4/mongodb/bin/mongod.exe --dbpath=C:/Users/DELL/mongo-4/mongodb-data
-//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
+//
 
 const mongoose = require('mongoose')
 //const validator = require('validator')
@@ -16,7 +16,7 @@ mongoose.connect(process.env.MONGODB_URL,{
     useUnifiedTopology: true
 })
 
-
+ 
 
 // const me = new User({
 //     name: 'Nickel',
